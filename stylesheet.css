@@ -149,6 +149,7 @@ header {
 
 .heading h2 {
   font-weight: normal;
+  font-color : red;
 }
 
 .lesson {
