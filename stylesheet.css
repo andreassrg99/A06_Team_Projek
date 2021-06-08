@@ -71,11 +71,22 @@ a {
   display: inline-block;
   opacity: 0.8;
   border-radius: 4px;
-  text-align: center;
+  text-align: center;  
 }
 
 .btn:hover {
   opacity: 1;
+  
+}
+
+.rotate img{
+-webkit-transition: -webkit-transform 1.1s ease-in-out;
+transition: transform 1.1s ease-in-out;
+}
+
+.rotate img:hover{
+-webkit-transform: rotate(360deg);
+transform: rotate(360deg);
 }
 
 .fa {
@@ -120,6 +131,7 @@ header {
 
 .header-right a:hover {
   background-color: rgba(255, 255, 255, 0.3);
+  line-height: 100px;
 }
 
 /* Tambahkan CSS untuk menu-icon */
@@ -137,7 +149,7 @@ header {
   padding-bottom: 80px;
   padding-left: 5%;
   padding-right: 5%;
-  background-color: #2ecc71;
+  background-color: #f1f2f6;
   text-align: center;
 }
 
@@ -147,26 +159,54 @@ header {
   color: #5f5d60;
 }
 
+.headingx{
+  padding-top: 80px;
+  padding-bottom: 50px;
+  color: #3742fa;
+}
+
 .heading h2 {
   font-weight: normal;
-  color : white;
+}
+
+.headingx h2 {
+  font-size: 50px;
 }
 
 .lesson {
   float: left;
-  width: 25%;
+  width: 35%;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .lesson-icon {
   position: relative;
+
+}
+
+.lesson-icon img{
+  width: 130%;
 }
 
 .lesson-icon p {
   position: absolute;
-  top: 44%;
-  width: 100%;
+  top: 24%;
+  width: 130%;
+  font-size: 40px;
   color: white;
+  text-decoration: underline;
 }
+
+.lesson-icon h5 {
+  position: absolute;
+  top: 44%;
+  width: 130%;
+  color: ghostwhite;
+  font-family: monospace;
+  font-size: 20px;
+}
+
 
 .text-contents {
   width: 80%;
@@ -178,6 +218,7 @@ header {
 
 .heading h3 {
   font-weight: normal;
+
 }
 
 .message-wrapper {
