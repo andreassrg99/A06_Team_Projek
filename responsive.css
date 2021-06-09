@@ -1,23 +1,37 @@
 /* Untuk Tablet */
 @media all and (max-width: 1000px) {
   .lesson {
-    width: 50%;
+    width: 70%;
     margin-bottom: 50px;
+    margin-left: 25px;
+    margin-right: 25px;
   }
+
+  .lesson-icon p {
+  position: absolute;
+  top: 25%;
+  width: 130%;
+  font-size: 40px;
+  color: white;
+  text-decoration: underline;
+}
   
   .top-wrapper h1 {
     font-size: 32px;
   }
   
-  .heading h2 {
-    font-size: 20px;
+  .headingx h2 {
+    font-size: 35px;
   }
 }
 
 /* Untuk Smartphone */
 @media all and (max-width: 670px) {
   .lesson {
-    width: 100%;
+    width: 80%;
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 25px;
   }
   
   footer {
