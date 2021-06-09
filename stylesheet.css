@@ -96,7 +96,8 @@ transform: rotate(360deg);
 header {
   height: 65px;
   width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
+  background-color: rgba(0, 206, 201,1.0);
+  opacity: 0.9;
   position :fixed;
   top: 0;
   z-index: 10;
@@ -240,8 +241,12 @@ header {
   box-shadow: none;
 }
 
-footer img {
+/*footer img {
   width: 125px;
+}*/
+
+footer img {
+  width:150px;float:left;
 }
 
 footer p {
@@ -249,8 +254,30 @@ footer p {
   font-size: 12px;
 }
 
-footer {
+/*footer {
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: blueviolet;
+}*/
+
+footer {
+  background-color: #fee;
+  color: #2e3742;
+  height: 180px;
+  padding: 90px;
+  background-image:url(https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.60e555ec.png);
+  background-size:cover;
+}
+
+.logo-footer {
+  float: left;
+  font-size: 50px;
+}
+
+.footer-list {
+  float:right;
+}
+
+.footer-list li {
+  padding-bottom: 10px;padding-top:10px; border-bottom: 3px solid #2e3742; font-size:25px;
 }
