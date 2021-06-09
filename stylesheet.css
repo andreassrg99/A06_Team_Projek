@@ -1,283 +1,393 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  /* background-image: url(https://prog-8.com/images/html/advanced/top_en.png);*/
-  background-color: red;
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;  
-}
-
-.btn:hover {
-  opacity: 1;
+    box-sizing: border-box;
+  }
   
-}
+  body {
+    margin: 0;
+    font-family: "Lucida Grande";
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  .clear {
+    clear: left;
+  }
+  
+  .container {
+    max-width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url('shop.png');
+    background-size: cover;
+    color: black;
+    text-align: center;
+  }
+  
+  .top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+    margin-bottom: 10px;
+  }
+  
+  .top-wrapper p {
+    opacity: 0.7;
+    margin-bottom: 3px;
+  }
+  
+  
+  .blue {
+    background-color: #3b5998;
+    margin-right: 10px;
+  }
+  
+  
+  .btn {
+    padding: 12px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+    text-align: center;
+  }
+  
+  .btn:hover {
+    opacity: 1;
+  }
+  
+  .fa {
+    margin-right: 5px;
+  }
+  
+  
+  /*code Ahmad nasir 08 juni 2021*/
+  .left-main {
+      float:left;
+      width: 50%;
+      padding: 5px;
+  }
+  .left-main h3 {
+      text-align: center;
+  }
+  .right-main {
+      float:left;
+      width: 50%;
+      padding: 5px;
+  }
+  .right-main h3 {
+      text-align: center;
+  }
+  .right-main img {
+    width: 100%;
+  }
+  .left-top-main {
+    color: white;
+    background-color: #f53d2d;
+    margin-bottom: 5px;
+  }
+  .left-top-main h4,.left-top-main a {
+    margin-left: 10px;
+  }
+  .left-title-top-main {
+    width: 100%;
+	Height: 250px;
+	Position: relative;
+    display: inline-block;
+    background-image: url(top.png);
+  }
+  
+  .left-title-top-main a {
+    Position : absolute;
+	Bottom : 20px;
+	 Left : 10px;
+  }
+  
+  .left-tmb-top-main {
+    width: 50%;
+    display: inline;
+  }
+  .left-tmb-top-main img {
+    width: 100px;
+    height: 100px;
+  }
+  .left-2-column-main {
+    color: black;
+  }
+  
+  .post-shortcut {
+    width: 50%;
+    float: left;
+    padding: 20px;
+  }
+  .left-2-column-main .post-shortcut {
+    padding: 5px;
+    display: inline-block;  
+    text-align: center;
+  }
+  
+  
+  .bg-pink-tua {
+    background-color: #ffc7c3;
+  }
+  
+  .bg-grey {
+    background-color: #ccc;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .left-main,.right-main {
+      clear: both;;
+      width: 100%;
+      padding: 5px;
+    }
+    .right-main img {
+      width: 100%;
+      height: 400px;
+    }
+  }
+  /*end code Ahmad nasir*/
 
-.rotate img{
--webkit-transition: -webkit-transform 1.1s ease-in-out;
-transition: transform 1.1s ease-in-out;
-}
+  /* start andreas */
+  .blink {
+    animation: blink-animation 1s steps(5, start) infinite;
+    -webkit-animation: blink-animation 1s steps(5, start) infinite;
+  }
+  @keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  @-webkit-keyframes blink-animation {
+    to {
+      visibility: hidden;
+    }
+  }
+  .rotate img{
+    -webkit-transition: -webkit-transform 1.1s ease-in-out;
+    transition: transform 1.1s ease-in-out;
+    }
+    
+    .rotate img:hover{
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    }
+    
+    .fa {
+      margin-right: 5px;
+    }
 
-.rotate img:hover{
--webkit-transform: rotate(360deg);
-transform: rotate(360deg);
-}
+  
+  .lesson-wrapper {
+    padding-bottom: 80px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f1f2f6;
+    text-align: center;
+  }
+  .headingx{
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #3742fa;
+  }
+  .headingx h2 {
+    font-size: 50px;
+    
+  }
+  
+  .lesson {
+    float: left;
+    width: 35%;
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+  
+  .lesson-icon {
+    position: relative;
+  
+  }
+  
+  .lesson-icon img{
+    width: 130%;
+  }
+  
+  .lesson-icon p {
+    position: absolute;
+    top: 24%;
+    width: 130%;
+    font-size: 40px;
+    color: white;
+    text-decoration: underline;
+  }
+  
+  .lesson-icon h5 {
+    position: absolute;
+    top: 44%;
+    width: 130%;
+    color: ghostwhite;
+    font-family: monospace;
+    font-size: 20px;
+  }
+/* end andreas     */
 
-.fa {
-  margin-right: 5px;
-}
+/* start adit */
+footer {
+    background-color: #fee;
+    color: #2e3742;
+    height: 180px;
+    padding: 90px;
+    background-image:url(https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.60e555ec.png);
+    background-size:cover;
+  }
+  footer img {width:150px;float:left;}
+  .logo-footer {
+    float: left;
+    font-size: 50px;
+  }
+  
+  .footer-list {
+    float:right;
+  }
+  
+  .footer-list li {
+    padding-bottom: 10px;padding-top:10px; border-bottom: 3px solid #2e3742; font-size:25px;
+  }
+/* end adit */
 
+/* start armand */
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(0, 206, 201,1.0);
-  opacity: 0.9;
-  position :fixed;
-  top: 0;
-  z-index: 10;
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+.top-left p {
+    width: 124px;
+    margin-top: 20px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    margin-left: 10px;
+    font-size: large;
+    font-weight: bold;
 }
 
-.header-left {
-  float: left;
+.top-left {
+    float: left;
 }
 
-.header-left h4{
-  font-size: 20px;
+.top-right {
+    float: right;
 }
 
-.header-right {
-  float: right;
-  margin-right: -25px;
+.top-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: white;
+    display: block;
+    float: left;
+    transition: all 0.5s;
 }
 
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+.top-right a:hover {
+    background-color: rgba(255, 255, 255, 0.3);
 }
 
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
-  line-height: 100px;
-}
-
-/* Tambahkan CSS untuk menu-icon */
 .menu-icon {
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  /* Gantikan property display ke none */
-  display: none;
+    color: white;
+    float: right;
+    font-size: 25px;
+    padding: 21px 0;
+    display: none;
 }
 
+/* end armand */
 
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f1f2f6;
-  text-align: center;
-}
-
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
-}
-
-.headingx{
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #3742fa;
-}
-
-.heading h2 {
-  font-weight: normal;
-}
-
-.headingx h2 {
-  font-size: 50px;
-}
-
-.lesson {
-  float: left;
-  width: 35%;
-  margin-left: 50px;
-  margin-right: 50px;
-}
-
-.lesson-icon {
-  position: relative;
-
-}
-
-.lesson-icon img{
-  width: 130%;
-}
-
-.lesson-icon p {
+/* start arka manulang */
+/* Untuk Tablet */
+@media all and (max-width: 1000px) {
+  .top-wrapper h1 {
+      font-size: 32px;
+  }
+  
+  .lesson {
+	float: left;
+    width: 60%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .lesson-icon p {
   position: absolute;
-  top: 24%;
+  top: 25%;
   width: 130%;
-  font-size: 40px;
+  font-size: 30px;
   color: white;
   text-decoration: underline;
 }
 
-.lesson-icon h5 {
+  .headingx h2 {
+    font-size: 35px;
+  }
+  
+}
+
+/* Untuk Smartphone */
+@media all and (max-width: 670px) {
+  .top-wrapper {
+      text-align: left;
+  }
+
+  .menu-icon {
+      display: block;
+  }
+
+  .top-wrapper h1 {
+      font-size: 24px;
+      line-height: 36px;
+  }
+  
+  .lesson {
+	float: left;
+    width: 58%;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .lesson-icon p {
   position: absolute;
-  top: 44%;
+  top: 25%;
   width: 130%;
-  color: ghostwhite;
-  font-family: monospace;
-  font-size: 20px;
+  font-size: 22px;
+  color: white;
+  text-decoration: underline;
 }
 
-
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+  .lesson-icon h5 {
+    position: absolute;
+    top: 44%;
+    width: 130%;
+    color: ghostwhite;
+    font-family: monospace;
+    font-size: 15px;
+  }
+  
+  .top-right a {
+    display: none;
+  }
+  
+  .headingx h2 {
+    font-size: 25px;
+    
+  }
 }
-
-.heading h3 {
-  font-weight: normal;
-
-}
-
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
-}
-
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
-}
-
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
-}
-
-/*footer img {
-  width: 125px;
-}*/
-
-footer img {
-  width:150px;float:left;
-}
-
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
-}
-
-/*footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
-  background-color: blueviolet;
-}*/
-
-footer {
-  background-color: #fee;
-  color: #2e3742;
-  height: 180px;
-  padding: 90px;
-  background-image:url(https://static-cse.canva.com/blob/140234/Rainbow-Gradient-Pink-and-Purple-Zoom-Virtual-Background.60e555ec.png);
-  background-size:cover;
-}
-
-.logo-footer {
-  float: left;
-  font-size: 50px;
-}
-
-.footer-list {
-  float:right;
-}
-
-.footer-list li {
-  padding-bottom: 10px;padding-top:10px; border-bottom: 3px solid #2e3742; font-size:25px;
-}
+/* end arka manulang */
